@@ -4,75 +4,34 @@ import { useNavigate } from "react-router-dom";
 
 export default function FirstsemInfo() {
 
-  const sectionAnimation = () => {
-    const message = document.querySelector(".timetable_button1");
-      if (message) {
-        message.style.transform = "scale(1.07)";
-        message.style.boxShadow = "0 0 8px 8px #abc0a1be";
-        message.style.outline = "3px solid #b0c4b186";
-  
-        setTimeout(() => {
-          message.style.transform = "scale(1)";
-          message.style.boxShadow = "none";
-          message.style.outline = "none";
-        }, 200);
-      }
-  };
-
   const navigateWithDelay_seca = () => {
     setTimeout(() => {
       navigate("/timetablesem1/a_sec");
-    }, 500);
+    }, 100);
   };
 
   const navigateWithDelay_secb = () => {
     setTimeout(() => {
       navigate("/timetablesem1/b_sec");
-    }, 500);
+    }, 100);
   };
 
   const navigateWithDelay_secc = () => {
     setTimeout(() => {
       navigate("/timetablesem1/c_sec");
-    }, 500);
-  };
-
-  const buttonAnimation_assn = () => {
-    const button = document.querySelector(".assn_btn");
-    button.style.transform = "scale(1.07)";
-    button.style.boxShadow = "0 0 8px 8px #abc0a1be";
-    button.style.outline = "1px solid #b0c4b186";
-
-    setTimeout(() => {
-        button.style.transform = "scale(1)";
-        button.style.boxShadow = "none";
-        button.style.outline = "none";
-    }, 200);
+    }, 100);
   };
 
   const navigateWithDelay_assn = () => {
     setTimeout(() => {
       navigate("/assignments/mqp_sem1");
-    }, 500);
-  };
-
-  const buttonAnimation_mqp = () => {
-    const button = document.querySelector(".qp_btn");
-    button.style.transform = "scale(1.07)";
-    button.style.boxShadow = "0 0 8px 8px #abc0a1be";
-    button.style.outline = "1px solid #b0c4b186";
-
-    setTimeout(() => {
-        button.style.transform = "scale(1)";
-        button.style.boxShadow = "none";
-        button.style.outline = "none";
-    }, 200);
+    }, 100);
   };
 
   const navigateWithDelay_mqp = () => {
     setTimeout(() => {
       navigate("/assignments/mqp_sem1");
-    }, 500);
+    }, 100);
   };
 
   const navigate = useNavigate();
@@ -84,7 +43,7 @@ export default function FirstsemInfo() {
           Time Table
         </div>
         <div className="timetable_button">
-          <button onClick={() => { sectionAnimation(); navigateWithDelay_seca(); }} className="timetable_button1">
+          <button onClick={() => {  navigateWithDelay_seca(); }} className="timetable_button1">
             A Section
           </button>
           <button onClick={() => { navigateWithDelay_secb(); }} className="timetable_button1">
@@ -99,10 +58,10 @@ export default function FirstsemInfo() {
         <div className="qp_title">
           Question Papers
         </div>
-        <button onClick={() => { buttonAnimation_assn(); navigateWithDelay_assn(); }} className="assn_btn">
+        <button onClick={() => {  navigateWithDelay_assn(); }} className="assn_btn">
           Assignments
         </button>
-        <button onClick={() => { buttonAnimation_mqp(); navigateWithDelay_mqp(); }} className="qp_btn">
+        <button onClick={() => {  navigateWithDelay_mqp(); }} className="qp_btn">
           MQP
         </button>
       </div>

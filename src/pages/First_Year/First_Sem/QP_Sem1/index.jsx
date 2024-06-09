@@ -24,7 +24,7 @@ export default function ModelandAssnS1() {
       const navigateWithDelay_assn = () => {
         setTimeout(() => {
           navigate("/assignments_mqp");
-        }, 500);
+        }, 100);
       };
 
       const uploadAnimation = () => {
@@ -64,7 +64,7 @@ export default function ModelandAssnS1() {
       const navigateWithDelay_mqp = () => {
         setTimeout(() => {
           navigate("/assignments_mqp");
-        }, 500);
+        }, 100);
       };
 
     const navigate = useNavigate();

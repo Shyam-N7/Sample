@@ -25,7 +25,7 @@
   top: 16%;
   left: 18%;
   transition: all 0.5s ease;
-  animation: fadeIn 1s ease-in-out;
+  /* animation: fadeIn 1s ease-in-out; */
 }
 
 @keyframes fadeIn {
@@ -118,7 +118,7 @@
   position: absolute;
   border: 4px double rgba(96, 205, 46, 0.768);
   border-radius: 10px;
-  animation: comeUp 1.5s ease-in-out;
+  /* animation: comeUp 1.5s ease-in-out; */
 }
 
 @keyframes comeUp {
@@ -147,7 +147,7 @@
   top: 58%;
   left: 16.5%;
   transition: all 0.4s ease;
-  animation: fadeOut 1s ease-in-out;
+  /* animation: fadeOut 1s ease-in-out; */
 }
 
 @keyframes fadeOut {
@@ -245,7 +245,7 @@
   padding-right: 10px;
   padding-left: 10px;
   transition: all 0.4s ease;
-  animation: slideIn 1s ease-in-out;
+  /* animation: slideIn 1s ease-in-out; */
 }
 
 @keyframes slideIn {
@@ -333,7 +333,7 @@
   top: 60%;
   left: 59%;
   transition: all 0.4s ease;
-  animation: slideOut 1s ease-in-out;
+  /* animation: slideOut 1s ease-in-out; */
 }
 
 @keyframes slideOut {

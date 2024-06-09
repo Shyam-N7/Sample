@@ -24,7 +24,7 @@
     align-items: center;
     display: flexbox;
     transition: all 0.5s ease;
-    animation: fadeOut 1.5s ease-in-out;
+    /* animation: fadeOut 1.5s ease-in-out; */
 }
 
 .Marks_upload_container:hover {
@@ -80,7 +80,7 @@
     left: 75%;
     position: absolute;
     transition: 0.6s ease;
-    animation: slideOut 1.5s ease-in-out;
+    /* animation: slideOut 1.5s ease-in-out; */
 }
 
 .message_for_the_day:hover {

@@ -24,7 +24,7 @@
      top: 25%;
     left: 21%; */
     transition: all 0.5s ease;
-    animation: fadeOut 1.5s ease-in-out;
+    /* animation: fadeOut 1.5s ease-in-out; */
 }
 
 .assignments_container:hover {
@@ -85,7 +85,7 @@
     top: 23%;
     left: 50%;  */
     transition: all 0.5s ease;
-    animation: fadeOut 1.5s ease-in-out;
+    /* animation: fadeOut 1.5s ease-in-out; */
 }
 
 .mqp_container:hover {
@@ -107,7 +107,6 @@
     margin-bottom: 30px;
     text-decoration: underline;
 }
-
 
 .mqp_name {
     display: flexbox;
@@ -146,7 +145,7 @@
     justify-content: center;
     border-radius: 20px;
     transition: all 0.5s ease;
-    animation: fadeOut 1.5s ease-in-out;
+    /* animation: fadeOut 1.5s ease-in-out; */
 }
 
 .marks_upload:hover {
