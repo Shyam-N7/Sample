@@ -1,0 +1,125 @@
+.HomepageBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url('../gallery/dbit.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: rgba(245, 235, 224, 1);
+    -sizing: border-box;
+  }
+  
+  .Buttons_home {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+    text-decoration: solid;
+    margin-top: 25px;
+    top: 60%;
+    position: absolute;
+    animation: fadeOut 1s ease-out;
+  }
+  
+  .home_button {
+    background-color: #4a5759;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(9, 3, 3, 0.47);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0px;
+    transition: all 0.3s ease-in-out; /* Add the transition property to the .home_button class */
+  }
+
+  .home_button:active,.home_button:focus {
+    transform: scale(1.07);
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.349);
+    outline: 3px solid #b0c4b186;
+  }
+  
+  .home_button:hover {
+    background-color: #b0c4b1;
+    outline: 3px solid #b0c4b186;
+    transform: scale(1.05);
+    transform: translateY(-9px);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.349);
+  }
+  
+  .home_button_admin {
+    color: white;
+    background-color: #284b63;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(9, 3, 3, 0.47);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home_button_admin:hover {
+    background-color: #778da9;
+    outline: 3px solid #778da989;
+    transform: scale(1.05);
+    transform: translateY(-9px);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.349);
+  }
+  
+  /* ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #F5F5F5!important
+  } */
+  
+  /*
+    .name {
+      font-size: 2rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      align-items: center;
+      justify-content: center;
+    }*/
+  
+  .name {
+    padding: 10px;
+    border: dashed 4px rgba(237, 225, 225, 0.7);
+    margin-bottom: 15px;
+  }
+  
+  .dbit-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 150px;
+    top: 37%;
+    right: 45%;
+    position: absolute;
+    animation: comeUp 1.5s ease-out;
+  }
+  
+  .title-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    width: 425px;
+    position: inherit;
+    margin-right: 15px;
+    margin-bottom: 275px;
+    animation: comeUp 1s ease-in;
+  }
+  

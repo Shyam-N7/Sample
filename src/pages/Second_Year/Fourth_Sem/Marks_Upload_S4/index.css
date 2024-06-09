@@ -1,0 +1,104 @@
+.marks_upload_title1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: underline;
+}
+
+.Marks_upload_container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 15px;
+    min-width: 30%;
+    /* flex-direction: column; */
+    background-color: #abc0a17c;
+    outline: 3px solid #abc0a17c;
+    border-radius: 30px;
+    margin : 10px 10px;
+    border-radius: 30px;
+    border: 1.5px solid #abc0a17c;
+    width: 30%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    transition: all 0.5s ease;
+    animation: fadeOut 1.5s ease-in-out;
+}
+
+.Marks_upload_container:hover {
+    outline: 3px solid #abc0a17c;
+    border: 1.5px solid #abc0a110;
+    transform: scale(1.03);
+    border-radius: 30px;
+    box-shadow: 0 0 18px 10px rgba(0, 0, 0, 0.44);
+    cursor: pointer;
+}
+
+.subject_names {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.marks_input_login {
+    padding: 3px;
+    width: 40%;
+    margin: 10px 10px;
+    border-radius: 7px;
+    color: blue;
+    border: 3px solid #abc0a17c;
+    transition: all 0.6s ease;
+}
+
+.marks_input_login:hover, .marks_input_login:focus {
+    outline: 2px solid #abc0a17c;
+    border: 2px solid #0000006d;
+    background-color: lightgray;
+}
+
+.save_button {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 280px;
+    border-radius: 5px;
+    border: 1px solid #abc0a17c;
+}
+
+.save_button:hover {
+    background-color: lightgray;
+}
+
+.message_for_the_day {
+    background-color: #fbfefa64;
+    outline: 3px solid #abc0a17c;
+    padding: 20px;
+    border-radius: 15px;
+    top: 70%;
+    left: 75%;
+    position: absolute;
+    transition: 0.6s ease;
+    animation: slideOut 1.5s ease-in-out;
+}
+
+.message_for_the_day:hover {
+    outline: 3px solid #abc0a17c;
+    border: 1.5px solid #abc0a110;
+    transform: scale(1.03);
+    border-radius: 15px;
+    box-shadow: 0 0 18px 10px rgba(0, 0, 0, 0.44);
+}
+
+.message_for_the_day span {
+    font-weight: 500;
+    transition: all 0.6s ease;
+}
+
+.message_for_the_day span:hover {
+    color: aliceblue;
+    transform: scale(1.03);
+    text-decoration: underline;
+    cursor: pointer;
+}

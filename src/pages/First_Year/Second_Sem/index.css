@@ -1,0 +1,10 @@
+.sem2_title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  background-color: #abc0a17c;
+  top: 5%;
+  left: 5%;
+  position: absolute;
+  border: 4px double rgba(96, 205, 46, 0.768);
+  border-radius: 10px;
+}
